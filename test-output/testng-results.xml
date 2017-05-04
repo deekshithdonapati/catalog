@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11021" started-at="2017-05-04T00:33:15Z" finished-at="2017-05-04T00:33:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11021" started-at="2017-05-04T00:33:15Z" finished-at="2017-05-04T00:33:26Z">
+      <class name="com.testngpractice.Loginpage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testngpractice.Loginpage@42d80b78]" name="setup" is-config="true" duration-ms="6559" started-at="2017-05-03T17:33:15Z" finished-at="2017-05-03T17:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testcase()[pri:0, instance:com.testngpractice.Loginpage@42d80b78]" name="testcase" duration-ms="1399" started-at="2017-05-03T17:33:21Z" finished-at="2017-05-03T17:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="setdown()[pri:0, instance:com.testngpractice.Loginpage@42d80b78]" name="setdown" is-config="true" duration-ms="3044" started-at="2017-05-03T17:33:23Z" finished-at="2017-05-03T17:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdown -->
+      </class> <!-- com.testngpractice.Loginpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
