@@ -1,0 +1,5 @@
+com\catalog\pages\SignInPage.class
+com\catalog\tests\SignInTests.class
+com\catalog\pages\HomePage.class
+com\catalog\tests\Loginpagenegativ.class
+com\learnautomation\selenium\CommonMethods.class

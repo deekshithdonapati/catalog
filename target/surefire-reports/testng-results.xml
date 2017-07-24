@@ -1,39 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="17806" started-at="2017-05-04T20:47:11Z" finished-at="2017-05-04T20:47:29Z">
+  <suite name="Suite" duration-ms="15459" started-at="2017-07-24T22:19:01Z" finished-at="2017-07-24T22:19:16Z">
     <groups>
+      <group name="Regression">
+        <method signature="SignInTests.Login_01()[pri:0, instance:com.catalog.tests.SignInTests@2669b199]" name="Login_01" class="com.catalog.tests.SignInTests"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="regression1" duration-ms="17806" started-at="2017-05-04T20:47:11Z" finished-at="2017-05-04T20:47:29Z">
-      <class name="com.testngpractice.Loginpage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testngpractice.Loginpage@6615435c]" name="setup" is-config="true" duration-ms="5383" started-at="2017-05-04T13:47:11Z" finished-at="2017-05-04T13:47:17Z">
+    <test name="Test" duration-ms="15459" started-at="2017-07-24T22:19:01Z" finished-at="2017-07-24T22:19:16Z">
+      <class name="com.catalog.tests.SignInTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.catalog.tests.SignInTests@2669b199]" name="SetUp" is-config="true" duration-ms="11943" started-at="2017-07-24T15:19:01Z" finished-at="2017-07-24T15:19:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:com.testngpractice.Loginpage@6615435c]" name="testcase" duration-ms="1205" started-at="2017-05-04T13:47:17Z" finished-at="2017-05-04T13:47:18Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Login_01()[pri:0, instance:com.catalog.tests.SignInTests@2669b199]" name="Login_01" duration-ms="2032" started-at="2017-07-24T15:19:13Z" finished-at="2017-07-24T15:19:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="setdown()[pri:0, instance:com.testngpractice.Loginpage@6615435c]" name="setdown" is-config="true" duration-ms="960" started-at="2017-05-04T13:47:18Z" finished-at="2017-05-04T13:47:19Z">
+        </test-method> <!-- Login_01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.catalog.tests.SignInTests@2669b199]" name="tearDown" is-config="true" duration-ms="1472" started-at="2017-07-24T15:19:15Z" finished-at="2017-07-24T15:19:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setdown -->
-      </class> <!-- com.testngpractice.Loginpage -->
-      <class name="com.maven.Javanet">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.maven.Javanet@4cb2c100]" name="setUp" is-config="true" duration-ms="3156" started-at="2017-05-04T13:47:19Z" finished-at="2017-05-04T13:47:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoff()[pri:0, instance:com.maven.Javanet@4cb2c100]" name="logoff" duration-ms="6234" started-at="2017-05-04T13:47:22Z" finished-at="2017-05-04T13:47:28Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoff -->
-        <test-method status="PASS" signature="setdown()[pri:0, instance:com.maven.Javanet@4cb2c100]" name="setdown" is-config="true" duration-ms="851" started-at="2017-05-04T13:47:28Z" finished-at="2017-05-04T13:47:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setdown -->
-      </class> <!-- com.maven.Javanet -->
-    </test> <!-- regression1 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.catalog.tests.SignInTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

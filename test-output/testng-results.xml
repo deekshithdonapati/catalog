@@ -2,24 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11021" started-at="2017-05-04T00:33:15Z" finished-at="2017-05-04T00:33:26Z">
+  <suite name="Default suite" duration-ms="17190" started-at="2017-07-21T21:55:28Z" finished-at="2017-07-21T21:55:45Z">
     <groups>
+      <group name="Regression">
+        <method signature="SignInTests.Login_01()[pri:0, instance:com.catalog.tests.SignInTests@239963d8]" name="Login_01" class="com.catalog.tests.SignInTests"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="Default test" duration-ms="11021" started-at="2017-05-04T00:33:15Z" finished-at="2017-05-04T00:33:26Z">
-      <class name="com.testngpractice.Loginpage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testngpractice.Loginpage@42d80b78]" name="setup" is-config="true" duration-ms="6559" started-at="2017-05-03T17:33:15Z" finished-at="2017-05-03T17:33:21Z">
+    <test name="Default test" duration-ms="17190" started-at="2017-07-21T21:55:28Z" finished-at="2017-07-21T21:55:45Z">
+      <class name="com.catalog.tests.SignInTests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.catalog.tests.SignInTests@239963d8]" name="SetUp" is-config="true" duration-ms="11910" started-at="2017-07-21T14:55:28Z" finished-at="2017-07-21T14:55:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testcase()[pri:0, instance:com.testngpractice.Loginpage@42d80b78]" name="testcase" duration-ms="1399" started-at="2017-05-03T17:33:21Z" finished-at="2017-05-03T17:33:23Z">
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Login_01()[pri:0, instance:com.catalog.tests.SignInTests@239963d8]" name="Login_01" duration-ms="3141" started-at="2017-07-21T14:55:40Z" finished-at="2017-07-21T14:55:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase -->
-        <test-method status="PASS" signature="setdown()[pri:0, instance:com.testngpractice.Loginpage@42d80b78]" name="setdown" is-config="true" duration-ms="3044" started-at="2017-05-03T17:33:23Z" finished-at="2017-05-03T17:33:26Z">
+        </test-method> <!-- Login_01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.catalog.tests.SignInTests@239963d8]" name="tearDown" is-config="true" duration-ms="2124" started-at="2017-07-21T14:55:43Z" finished-at="2017-07-21T14:55:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setdown -->
-      </class> <!-- com.testngpractice.Loginpage -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.catalog.tests.SignInTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
